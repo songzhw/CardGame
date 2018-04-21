@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_equipment">120dp</dimen>
+    <dimen name="height_equipment">25dp</dimen>
+    <dimen name="height_my_card">125dp</dimen>
+
+
+</resources>
