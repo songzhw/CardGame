@@ -6,33 +6,33 @@
     <TextView
         android:id="@+id/tvTalisman" style="@style/equipmentUI"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:text="7 木牛流马" tools:drawableLeft="@drawable/clubs"/>
+        android:text="7 木牛流马" android:drawableLeft="@drawable/clubs"/>
 
     <TextView
         android:id="@+id/tvPlus1" style="@style/equipmentUI"
         app:layout_constraintBottom_toTopOf="@id/tvTalisman"
-        tools:text="A 马+1" tools:drawableLeft="@drawable/spades"/>
+        android:text="A 马+1" android:drawableLeft="@drawable/spades"/>
 
     <TextView
         android:id="@+id/tvMinus1" style="@style/equipmentUI"
         app:layout_constraintBottom_toTopOf="@id/tvPlus1"
-        tools:text="3 马-1" tools:drawableLeft="@drawable/hearts"/>
+        android:text="3 马-1" android:drawableLeft="@drawable/hearts"/>
 
     <TextView
         android:id="@+id/tvArmor" style="@style/equipmentUI"
         app:layout_constraintBottom_toTopOf="@id/tvMinus1"
-        tools:text="J 仁王盾" tools:drawableLeft="@drawable/diamonds"/>
+        android:text="J 仁王盾" android:drawableLeft="@drawable/diamonds"/>
 
     <TextView
         android:id="@+id/tvWeapon" style="@style/equipmentUI"
         app:layout_constraintBottom_toTopOf="@id/tvArmor"
-        tools:text="5 诸葛连弩" tools:drawableLeft="@drawable/spades"/>
+        android:text="5 诸葛连弩" android:drawableLeft="@drawable/spades"/>
 
     <TextView android:id="@+id/tvHero"
         android:layout_width="50dp" android:layout_height="@dimen/height_my_card"
         android:textSize="18dp" android:textColor="#000" android:gravity="center_vertical"
         app:layout_constraintLeft_toRightOf="@id/tvWeapon" app:layout_constraintBottom_toBottomOf="parent"
-        tools:text="夏侯云\n****"
+        android:text="夏侯云\n****"
         />
 
 </merge>

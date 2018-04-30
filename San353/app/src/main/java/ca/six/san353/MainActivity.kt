@@ -2,7 +2,7 @@ package ca.six.san353
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import ca.six.san353.module.game.GameActivity
+import ca.six.san353.biz.game.GameActivity
 import ca.six.san353.utils.jump
 import kotlinx.android.synthetic.main.activity_main.*
 
